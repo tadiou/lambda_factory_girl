@@ -1,0 +1,29 @@
+inherit_from: ../.rubocop.yml
+
+RSpec/AnyInstance:
+  Enabled: false
+RSpec/NamedSubject:
+  Enabled: false
+RSpec/ExampleLength:
+  Max: 30
+RSpec/InstanceVariable:
+  AssignmentOnly: true
+RSpec/DescribeClass:
+  Exclude:
+    - spec/features/**/*
+RSpec/MultipleExpectations:
+  Enabled: false
+RSpec/LeadingSubject:
+  Enabled: false
+RSpec/LetSetup:
+  Enabled: false
+Rails/HttpPositionalArguments:
+  Enabled: false
+RSpec/NestedGroups:
+  Enabled: false
+Style/GuardClause:
+  Enabled: false
+Style/FrozenStringLiteralComment:
+  Enabled: false
+Rails/SkipsModelValidations:
+  Enabled: false
